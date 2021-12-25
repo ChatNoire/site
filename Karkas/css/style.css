@@ -1,0 +1,160 @@
+.mainBd{
+    display: flex;
+    position: relative;
+    height: 100%;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    position: relative;
+    flex: 0 0 auto;
+    justify-content: space-between; 
+    width: auto;
+    height: 50px;
+    background-color: black;
+    flex-direction: row-reverse;
+}
+
+.title-name {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+}
+
+.btnList-active{
+    color:rgb(8, 0, 83);
+}
+
+.btnList:hover{
+    background-color:rgb(173, 173, 173);
+}
+    
+.shopping-cartt{
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: center;
+    width: 60px;
+    height: 100%;
+    font-size: 25px;
+}  
+
+.btnList {
+    width: 60px;
+    height: 100%;
+    font-size: 25px;
+    
+}
+
+.slider{
+    display: flex;
+}
+
+.textCont{
+    display: flex;
+    flex: 1 0 auto;
+
+}
+.main-text{
+    font-style: sans-serif;
+    font-size: 25px;
+}
+
+.ftr{
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    background-color: black;
+    height: 100px;
+}
+
+.nav-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid black;
+    transform: translateY(100%);
+    left: 0;
+    bottom: 0;
+}
+
+.hidden-block {
+    display: none;
+}
+
+.nav-list__btn {
+    background-color: white;
+    width: 250px;
+    height: 75px;
+    color: black;
+}
+.nav-list__btn:hover{
+    background-color:rgb(173, 173, 173);
+}
+.name-corp-ftr{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    size: 27px bold;
+    margin-left: 10px;
+}
+.facebook-btn{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    font-size: 25px;
+    margin: 0 0 0 20px;
+}
+.telephone-number{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    size: 27px bold;
+    margin-left: 500px;
+    margin-right: 50px;
+}
+.telegram-icom{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.main-page{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: fit-content;
+    color: white;
+    size: 27px;
+    margin-left: 700px;
+}
